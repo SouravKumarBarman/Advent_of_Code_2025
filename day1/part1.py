@@ -11,7 +11,6 @@ if __name__=="__main__":
     index=int(50)
     count=0
     for line in file:
-        line.strip()
         direction=line[0]
         num=int(line[1:])
         if(direction=="R"):
